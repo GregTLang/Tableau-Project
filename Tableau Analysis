@@ -1,0 +1,47 @@
+CitiBike Analysis - Greg Lang
+
+Demographic Insights:
+
+While not meant to target to any specific demographic with regard to gender, CitiBike users in NYC skews heavily male.
+Only 21% of the total poplation of users from the period represented in this data were female (10.2K v 47.5K).
+This trend was consistent across age groups and both genders were represented at nearly every age.
+
+Despite having less total users, female bikers averaged 5.6% longer trips than their male counterparts.
+My data set did not include distance, but further analysis could be done to calculate distance traveled per trip based on latitude and longitude of bike pick-up/drop-off sites to see if this longer average trip duration is due to slower travel speeds or longer distances.
+
+34% of all CitiBike users in this data set were between the ages of 25 and 34.
+33% of all CitiBike users in this data set were between the ages of 35 and 44.
+This means that 67% of total CitiBike users were between the ages of 25 and 44 suggesting that CitiBike is largely used by professional-aged indivuduals likely as a cost-efficient form of commuting.
+
+29% of CitiBike trips in this data were taken by user who self-identified as 45+ years old.
+While this could be true, I would not expect such a high quantity of the bike rides to belong to this age demographic.
+Instead, I would expect that some of these older individuals are incorrectly self-reporting their ages.
+
+
+Location Insights:
+
+Overlay of Starting Station and Ending Station popularity maps suggest that CitiBike users tend to ride in a round-trip path.
+This is supported by the fact that all of the top 10 most popular Stating Stations are also the 10 most popular Ending stations.
+
+Top 10 Ending Locations   | Top 10 Starting Locations
+1.   2 Ave & E 58 St      | 1 Ave & E 16 St
+2.   2 Ave & E 31 St      | 2 Ave & E 31 St
+3.   1 Ave & E 16 St      | 2 Ave & E 58 St
+4.   1 Ave & E 44 St      | 1 Ave & E 44 St
+5.   6 Ave & Broome St    | 6 Ave & Broome St
+6.   1 Ave & E 18 St      | 6 Ave & Canal St
+7.   6 Ave & Canal St     | 5 Ave & E 29th St
+8.   5 Ave & E 29th St    | 1 Ave & E 30 St
+9.   1 Ave & E 30 St      | 1 Ave & E 18 St
+10.  3 Ave & Schermerhorn | 3 Ave & Schermerhorn
+
+Furthmore, the top 5 starting stations are also the same as the top 5 ending statinos (just in a different order)
+
+Through the use of parameters, you can toggle back and forth between starting/ending statino popularity on the same map and see that this trend of popularity being similar on both maps continues beyond the top 10 locations.
+
+While we are able to see that these stations are the most popular, what we don't know is how this numbe is impacted by number of available bikes at each station.
+CitiBike likely has higher amounts of inventory at stations that get the most bike traffic, so while bike availability could potentially skew these numbers, it is likely that higher bike population at these stations was a result of orignally observed high usage.
+
+Additionally, most of the top 10 usage stations are on the East side of Manhattan.
+Since the data represents bike usage in NYC and Brooklyn, the East side is more or less the middle ground between the two east/west extremes of the map.
+Since consumers are likely not biking from West Village to Crown Heights, it would make sense that CitiBike users would most prevelent in this centrally located area.
